@@ -1,7 +1,7 @@
 #include <iostream>
 
-// Trijal Burman //
-// PRN - 2370123145
+// Tiya Singh //
+// PRN - 2370123144
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
