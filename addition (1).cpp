@@ -1,19 +1,17 @@
-#include <iostream>
-
 // Tiya Singh //
 // PRN - 2370123144
 
-int main() {
-    int number;
+#include <iostream>
+using namespace std;
 
-    std::cout << "Enter an integer: ";
-    std::cin >> number;
-
-    if (number % 2 == 0) {
-        std::cout << number << " is even." << std::endl;
-    } else {
-        std::cout << number << " is odd." << std::endl;
-    }
-
+int main()
+{
+    int a,b,s = 0;
+    cout << "Enter first number: ";
+    cin >> a;
+    cout << "Enter second number: ";
+    cin >> b;
+    s = a + b;
+    cout << "Sum: "<<s;
     return 0;
 }
